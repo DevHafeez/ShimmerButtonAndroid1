@@ -19,12 +19,13 @@ allprojects {
 Add the dependency to your app build.gradle file:
 ```groovy
 dependencies {
-    implementation 'com.github.YourUsername:ShimmerButtonByHafeez:Tag'
+     implementation 'com.github.DevHafeez:ShimmerButtonAndroid1:[![](https://jitpack.io/v/DevHafeez/ShimmerButtonAndroid1.svg)](https://jitpack.io/#DevHafeez/ShimmerButtonAndroid1)'
 }
 ```
 Replace YourUsername with your GitHub username and Tag with the version you want to use.
 
-##Usage
+## Usage
+
 To use ShimmerButtonByHafeez in your layout XML file, add the following code:
 
 ```xml
