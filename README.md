@@ -40,6 +40,28 @@ To use ShimmerButtonByHafeez in your layout XML file, add the following code:
     app:shimmer_foreground_res="@drawable/white_round_bg"
     app:shimmer_speed="2000" />
 ```
+
+blue_gradient_round_bg.xml
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:endColor="#4945FF"
+        android:startColor="#408CFF" />
+    <corners android:radius="6dp" />
+</shape>
+```
+
+white_round_bg
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#AAFFFFFF" />
+    <corners android:radius="6dp" />
+</shape>
+```
 Customize the attributes button_width, button_height, shimmer_bg_res, shimmer_foreground_res, and shimmer_speed according to your requirements.
 
 License
