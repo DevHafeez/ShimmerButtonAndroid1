@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShimmerButtonByHafeez">
+        <attr name="button_width" format="dimension" />
+        <attr name="layout_width" format="dimension" />
+        <attr name="button_height" format="dimension" />
+        <attr name="layout_height" format="dimension" />
+        <attr name="shimmer_speed" format="integer" />
+        <attr name="shimmer_bg_res" format="reference" />
+        <attr name="shimmer_foreground_res" format="reference" />
+        <!-- Additional custom attributes -->
+        <attr name="android:text" format="string" />
+        <attr name="android:textAllCaps" format="boolean" />
+        <attr name="android:textColor" format="color" />
+        <attr name="android:textSize" format="dimension" />
+        <attr name="shimmer_colored" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,40 @@
+<!-- layout_shimmer_button.xml -->
+<!-- layout_shimmer_button.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btnStart"
+    android:layout_width="match_parent"
+    android:layout_height="64dp">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="4dp"
+        app:shimmer_base_alpha="1"
+        app:shimmer_duration="2000"
+        app:shimmer_highlight_alpha="0.4"
+        app:shimmer_tilt="45">
+
+        <android.widget.Button
+            android:id="@+id/buttonF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blue_gradient_round_bg"
+            android:elevation="4dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <android.widget.Button
+        android:id="@+id/buttonB"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/white_round_bg"
+        android:elevation="3dp"
+        app:layout_height="@dimen/button_height"
+        app:layout_width="@dimen/button_width" />
+
+</RelativeLayout>
