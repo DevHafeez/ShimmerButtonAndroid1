@@ -17,9 +17,10 @@ allprojects {
 }
 ```
 Add the dependency to your app build.gradle file:
+Latest version: [![](https://jitpack.io/v/DevHafeez/ShimmerButtonAndroid1.svg)](https://jitpack.io/#DevHafeez/ShimmerButtonAndroid1)
 ```groovy
 dependencies {
-     implementation 'com.github.DevHafeez:ShimmerButtonAndroid1:[![](https://jitpack.io/v/DevHafeez/ShimmerButtonAndroid1.svg)](https://jitpack.io/#DevHafeez/ShimmerButtonAndroid1)'
+     implementation 'com.github.DevHafeez:ShimmerButtonAndroid1:TAG'
 }
 ```
 Replace YourUsername with your GitHub username and Tag with the version you want to use.
