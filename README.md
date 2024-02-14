@@ -2,6 +2,11 @@
 
 ShimmerButtonByHafeez is a custom Android library that provides a shimmering button with customizable attributes. It utilizes the Facebook Shimmer library to create a shimmer effect on buttons.
 
+## Preview
+
+![ShimmerButtonByHafeez Preview](https://github.com/DevHafeez/ShimmerButtonAndroid1/raw/master/preview.gif)
+
+
 ## Implementation
 
 To use ShimmerButtonByHafeez in your Android project, follow these steps:
